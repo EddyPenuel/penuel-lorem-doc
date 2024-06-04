@@ -1,16 +1,41 @@
 // 'use strict';
 
 const text = [
-  `Jelly sweet roll jelly beans biscuit pie macaroon chocolate donut. Carrot cake caramels pie sweet apple pie tiramisu carrot cake. Marzipan marshmallow croissant tootsie roll lollipop. Cupcake lemon drops bear claw gummies. Jelly bear claw gummi bears lollipop cotton candy gummi bears chocolate bar cake cookie. Cupcake muffin danish muffin cookie gummies. Jelly beans tiramisu pudding. Toffee soufflé chocolate cake pastry brownie. Oat cake halvah sweet roll cotton candy croissant lollipop. Macaroon tiramisu chocolate bar candy candy carrot cake jelly sweet. Gummies croissant macaroon dessert. Chocolate cake dragée pie.`,
-  `Next level tbh everyday carry, blog copper mug forage kitsch roof party pickled hammock kale chips tofu. Etsy shoreditch 8-bit microdosing, XOXO viral butcher banh mi humblebrag listicle woke bicycle rights brunch before they sold out ramps. Twee shabby chic taiyaki flannel, enamel pin venmo vape four loko. Hexagon kale chips typewriter kitsch 8-bit organic plaid small batch keffiyeh ethical banh mi narwhal echo park cronut.`,
-  `Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.`,
-  `Cat gets stuck in tree firefighters try to get cat down firefighters get stuck in tree cat eats firefighters' slippers kitty power ignore the squirrels, you'll never catch them anyway for what a cat-ass-trophy! or purr as loud as possible, be the most annoying cat that you can, and, knock everything off the table. Pretend you want to go out but then don't bite off human's toes, yet disappear for four days and return home with an expensive injury; bite the vet so catch eat throw up catch eat throw up bad birds. `,
-  `This opera's as lousy as it is brilliant! Your lyrics lack subtlety. You can't just have your characters announce how they feel. That makes me feel angry! Anyhoo, your net-suits will allow you to experience Fry's worm infested bowels as if you were actually wriggling through them.
-  I just told you! You've killed me! Fry! Quit doing the right thing, you jerk! Michelle, I don't regret this, but I both rue and lament it. Morbo can't understand his teleprompter because he forgot how you say that letter that's shaped like a man wearing a hat.`,
-  `Airedale hard cheese mozzarella. Pecorino melted cheese port-salut emmental babybel cheese and wine melted cheese manchego. Everyone loves blue castello everyone loves fromage cheese slices airedale cheddar cream cheese. Bavarian bergkase who moved my cheese halloumi port-salut gouda jarlsberg ricotta rubber cheese. Stinking bishop smelly cheese brie.`,
-  `Salvia glossier subway tile, leggings mustache YOLO semiotics chia. Pitchfork tbh af blog church-key meggings vaporware PBR&B master cleanse post-ironic man bun pabst mustache letterpress synth. Snackwave raw denim godard, 3 wolf moon shaman offal kitsch unicorn live-edge selvage schlitz fashion axe vaporware drinking vinegar prism. Shabby chic tacos artisan, chambray chicharrones cardigan leggings typewriter af pop-up williamsburg meditation PBR&B viral. You probably haven't heard of them DIY jean shorts subway tile fashion axe bushwick kitsch tumeric cloud bread vaporware freegan franzen pork belly chicharrones banh mi.`,
-  `Man braid celiac synth freegan readymade, pitchfork fam salvia waistcoat lomo bitters gentrify four loko. Pitchfork semiotics post-ironic vegan. Tofu meditation microdosing hashtag semiotics venmo. Flexitarian vape tilde taiyaki. Prism poutine farm-to-table, messenger bag vegan taxidermy tattooed sartorial squid jean shorts fixie selvage trust fund vape.`,
-  `Rutters Plate Fleet boom chandler Brethren of the Coast handsomely lookout marooned brigantine knave. Buccaneer gangway jack rum loot spyglass line Jack Tar fore gaff. Gaff topmast scuttle ballast swab draught measured fer yer chains dance the hempen jig Chain Shot yardarm.`,
+  `1. To be successful you don't need to do extraordinary things, you just need to do ordinary things extraordinarily well.`,
+  `2. The smallest of disciplines, practiced every day, start an incredible process that can change our lives forever.`,
+  `3. The major value in life is not what you get. The major value in life is what you become.`,
+  `4. Indecision is the greatest thief of opportunity. `,
+  `5. We suffer one of two things. Either the pain of discipline or the pain of regret. You've got to choose discipline, versus regret, because discipline weighs ounces and regret weighs tons.`,
+  `6. Discipline is the bridge between goals and accomplishment.`,
+  `7.  Work hard at your job and you can make a living. Work hard on yourself and you can make a fortune.`,
+  `8. There are two ways to face the future. One way is with apprehension; the other is with anticipation`,
+  `9. We can have more than we've got because we can become more than we are.`,
+   `10. If you don't change what you are doing today, all of your tomorrows will look like yesterday.`,
+  `11. Don't wish it was easier, wish you were better. Don't wish for less problems, wish for more skills. Don't wish for less challenges, wish for more wisdom. The major value in life is not what you get. The major value in life is what you become. Success is not to be pursued; it is to be attracted by the person you become.`,
+  `12. If you really want to do something, you'll find a way. If you don't, you'll find an excuse.`,
+  `13. For things to change, YOU have to change. For things to get better, YOU have to get better. For things to improve, YOU have to improve. When YOU grow, EVERYTHING in your life grows with you.`,
+  `14. Your life does not get better by chance, it gets better by change.`,
+  `15. When the why gets stronger, the how gets easier.`,
+  `16. Don't let your learning lead to knowledge. Let your learning lead to action.`,
+  `17. Focus on the solution, not on the problem.`,
+  `18. Take care of your body. It's the only place you have to live.`,
+  `19. If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much.`,
+  `20. The ultimate reason for setting goals is to entice you to become the person it takes to achieve them`,
+  `21. Get around people who have something of value to share with you. Their impact will continue to have a significant effect on your life long after they have departed.`,
+  `22. You cannot change your destination overnight, but you can change your direction overnight.`,
+  `23. You are the average of the five people you spend the most time with. `,
+  `24. The more obstacles you face and overcome, the more times you falter and get back on track, the more difficulties you struggle with and conquer, the more resiliency you will naturally develop. There is nothing that can hold you back, if you are resilient.`,
+  `25. If you want to have more, you have to become more.
+  For things to change, you have to change.
+  For things to get better, you have to become better.
+  If you improve, everything will improve for you.
+  If you grow, your money will grow; your relationships, your health, your business and every external effect will mirror that growth in equal correlation.`,
+  `26. Days are expensive. When you spend a day you have one less day to spend. So make sure you spend each one wisely.`,
+  `27. You don't get paid for the hour. You get paid for the value you bring to the hour.`,
+  `28. You must take personal responsibility. You cannot change the circumstances, the seasons, or the wind, but you can change yourself. That is something you have charge of.`,
+  `29. Let others lead small lives, but not you. Let others argue over small things, but not you. Let others cry over small hurts, but not you. Let others leave their future in someone else's hands, but not you.`,
+  `30. Excuses are the nails used to build a house of failure.`,
+
 ];
 
 const form = document.querySelector(".lorem-form");
@@ -25,7 +50,7 @@ form.addEventListener("submit", function (e) {
   const value = parseInt(amount.value);
   const random = Math.floor(Math.random() * text.length);
 
-  if (isNaN(value) || value < 0 || value > 10) {
+  if (isNaN(value) || value < 0 || value > 30) {
     result.innerHTML = `<p class="result"> ${text[random]}</p>`;
   } else {
     let tempText = text.slice(0, value);
